@@ -1,6 +1,6 @@
 {
-  "name": "mudasir_atm",
-  "version": "1.0.0",
+  "name": "@mudasirchandio/atm",
+  "version": "1.0.2",
   "description": "In this repository we are creating an ATM",
   "main": "index.js",
   "type": "module",
@@ -8,7 +8,6 @@
     "access": "public"
   },
   "bin": "index.js",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mudasirchandio/atm": "^1.0.2",
     "inquirer": "^9.2.16"
   },
   "devDependencies": {
